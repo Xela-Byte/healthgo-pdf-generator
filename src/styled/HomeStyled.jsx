@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const HomeContent = styled.div`
   width: 100%;
+  min-width: 960px;
   height: 100vh;
   & > img {
     width: 100%;
