@@ -1,29 +1,35 @@
 import styled from "styled-components";
 
 export const HomeContent = styled.div`
-  width: 100%;
-  min-width: 960px;
-  height: 100vh;
+  width: 890px;
+  height: 626px;
   & > img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: fill;
   }
 
   & > .name,
-  & > .course {
+  & > .course,
+  & > .date {
     position: fixed;
   }
   & > .name {
-    font-size: 5vh;
-    top: 41vh;
-    left: 20vw;
+    font-size: 25px;
+    top: calc(626px / 2.3);
+    left: calc(890px / 10);
     color: #07a53d;
   }
   & > .course {
-    font-size: 4vh;
-    top: 59vh;
-    left: 20vw;
+    font-size: 20px;
+    top: calc(626px / 1.65);
+    left: calc(890px / 10);
+  }
+  & > .date {
+    color: grey;
+    font-size: 20px;
+    top: calc(626px / 1.46);
+    left: calc(890px / 10);
   }
 `;
 

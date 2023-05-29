@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca93c321.css",
+    "main.js": "/static/js/main.d77a5296.js",
+    "static/js/703.e9ca8e16.chunk.js": "/static/js/703.e9ca8e16.chunk.js",
+    "static/js/210.0b39a051.chunk.js": "/static/js/210.0b39a051.chunk.js",
+    "static/media/Montserrat.ttf": "/static/media/Montserrat.3faa3eef13649db02044.ttf",
+    "static/media/Raleway.ttf": "/static/media/Raleway.575ec9e676c7a85494bb.ttf",
+    "static/media/Nunito.ttf": "/static/media/Nunito.4a3eef3e0a61b7eb3eda.ttf",
+    "static/media/healthgo_certificate.jpg": "/static/media/healthgo_certificate.7269d492529f2aefe260.jpg",
+    "index.html": "/index.html",
+    "main.ca93c321.css.map": "/static/css/main.ca93c321.css.map",
+    "main.d77a5296.js.map": "/static/js/main.d77a5296.js.map",
+    "703.e9ca8e16.chunk.js.map": "/static/js/703.e9ca8e16.chunk.js.map",
+    "210.0b39a051.chunk.js.map": "/static/js/210.0b39a051.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca93c321.css",
+    "static/js/main.d77a5296.js"
+  ]
+}

@@ -34,6 +34,8 @@ const HomePage = () => {
       handleDownload();
     }
   }, [name, courseTitle]);
+
+  const todayDate = new Date().toLocaleDateString();
   return (
     <>
       <HomeContent ref={certificateRef}>
@@ -43,6 +45,7 @@ const HomePage = () => {
         />
         <p className="name">{name}</p>
         <p className="course">{courseTitle}</p>
+        <p className="date">{todayDate}</p>
       </HomeContent>
     </>
   );
